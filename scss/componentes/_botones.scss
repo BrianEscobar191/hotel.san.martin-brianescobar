@@ -1,0 +1,39 @@
+#hero-section {
+
+    
+    a {
+        background-color: rgba(237, 182, 32, 0.526);
+        color: aliceblue;
+        transition: 0.5s;
+    }
+
+    & a:hover {
+        color: orangered;
+        background-color: rgb(255, 255, 255);
+        border: 2px groove black;
+        filter: opacity(50%);
+    }
+
+    span {
+        color: rgba(233, 207, 136, 0.819);
+    }
+
+}
+
+
+
+
+.botonEnviar{
+    background-color: $color-principal;
+    color: $color-secundario;
+
+
+    &:hover{
+        background-color: $color-secundario;
+        color: $color-principal;
+    }
+}
+
+
+
+

@@ -1,0 +1,46 @@
+@mixin tamanioLetras($size, $weight,) {
+    font-size: $size;
+    font-weight: $weight;
+    
+}
+
+
+
+.letraTitulos{
+    @include tamanioLetras(45px, 800);
+}
+
+.letraSubtitulo{
+    @include tamanioLetras(25px,600 )
+}
+
+.letraDescripcion{
+    @include tamanioLetras(16px, 500);
+}
+
+
+.letraBaja{
+    @include tamanioLetras(13px,200)
+}
+
+
+#hero-section{
+    font-family:'Edu VIC WA NT Beginner', cursive;
+     
+}
+
+a{
+    font-family: 'Edu VIC WA NT Beginner', cursive;
+
+}
+
+h1 h2{
+    font-family: "Source Sans Pro", sans-serif;
+
+
+}
+
+.letraDescripcion{
+    font-family:'Edu VIC WA NT Beginner', cursive; ;
+}
+        
